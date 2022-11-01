@@ -1,0 +1,210 @@
+body{
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    background-color: rgb(80, 78, 78);
+   /* overflow: hidden;*/
+    position: fixed;
+    width:100%;
+    top:0;
+}
+
+#res{
+    display:inline;
+    padding: 5px 16px;
+    text-decoration: none;
+    color: white; 
+    float: left;
+    font-size: 20px;
+}
+
+#res>img{
+    padding: 0 10px;
+}
+
+
+li{
+    float:right;
+}
+
+li a{
+    display:block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+}
+
+#h{
+    color:rgb(104, 5, 5);
+}
+
+
+.down-btn  {
+    bottom: 0;
+    position: absolute;
+    min-width: 30px;
+    margin: 0px calc(50vw - 15px);
+    }
+
+
+a:hover{
+    background-color: rgb(232, 205, 165);
+}
+
+a:active{
+    background-color: brown;
+}
+
+.right{
+    float:right;
+}
+
+li.dropdown{
+    display: inline-block;
+}
+
+.dropdown-content{
+    display:none;
+    position:absolute;
+    background-color: bisque;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    min-width: 160px;
+    overflow: auto;
+  }
+  
+.dropdown-content a:hover {background-color: #753535;}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+#one{
+    background: url("pexels-ray-piedra-1565982.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#one > div{
+color:white;
+
+}
+
+#btn{
+    border: 1px solid white;
+    color:white;
+    background-color: rgba(0,0,0,0);
+    text-decoration: none;
+    font-size: 12px;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+#head{
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 350px;
+    font-size: 20px;
+}
+
+#head >p{
+    font-size: 25px;
+}
+
+#btn:hover{
+    background-color: rgb(191, 101, 68);
+}
+
+#second{
+    width:60%;
+    margin:auto;
+    display:flex;
+}
+
+#two > h2{
+    text-align: center;
+}
+
+#two > hr{
+    width: 70%;
+    margin: auto;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 280px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 5px;
+  text-align: center;
+}
+
+div.price{
+    text-align: center;
+    color: rgb(96, 194, 255);
+    padding: 5px;
+}
+
+#span{
+    color: black;
+}
+
+#link{
+    text-decoration: none;
+    color: white;
+    display:block;
+    background-color: rgb(224, 80, 28);
+    font-size: 14px;
+    padding: 3px;
+    width:60%;
+    margin:auto;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+#three{
+    background-color: rgb(61, 60, 60);
+    color: white;
+    display: flex;
+}
+
+#foot{
+    flex:left;
+    width:80%;
+    margin:10px;
+    padding:5px;
+    font-size: 20px;
+}
+
+#about > span{
+    color:rgb(143, 9, 9);
+}
